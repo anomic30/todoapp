@@ -1,6 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
+import logo from '../img/left-logo.png';
 
 export default function Header(props) {
   let brandStyle = {
@@ -10,7 +11,7 @@ export default function Header(props) {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link className="navbar-logo" to="/">
-          <img src="https://www.flaticon.com/svg/vstatic/svg/3176/3176366.svg?token=exp=1619625155~hmac=668195a3ec90bc1f4899bf74556cc223" alt="" width="50" height="35" className="d-inline-block align-text-top" />
+          <img src={logo} alt="" width="50" height="35" className="d-inline-block align-text-top" />
         </Link>
         <Link className="navbar-brand" style={brandStyle} to="/">{props.title}</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
