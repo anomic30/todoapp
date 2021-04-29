@@ -11,7 +11,7 @@ export default function Header(props) {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link className="navbar-logo" to="/">
-          <img src={logo} alt="" width="50" height="35" className="d-inline-block align-text-top" />
+          <img src={logo} alt="" width="40" height="35" className="d-inline-block align-text-top" />
         </Link>
         <Link className="navbar-brand" style={brandStyle} to="/">{props.title}</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

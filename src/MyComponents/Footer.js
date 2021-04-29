@@ -13,7 +13,7 @@ export const Footer = () => {
     }
     let pStyle = {
         marginBottom: "0px",
-        color: "#fff",
+        color: "#84868a",
     }
     return (
         <div className="bg-dark text-light py-3" style={myStyle}>
