@@ -1,88 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.whole{
-    background: #eee;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-}
-
-.container1{
-    position: relative;
-    width: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left-side{
-    position: relative;
-    width: 350px;
-}
-
-.left-side img{
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;
-    height: 400px;
-}
-
-.right-side{
-    position: relative;
-    width: 300px;
-    margin-top: 75px;
-    margin-left: 30px;
-}
-
-.right-side h2{
-    position: relative;
-    margin-top: -100px;
+    height: 100%;
     font-size: 20px;
     font-weight: 600;
-    color: rgba(0,0,0,0.2);
-    text-transform: uppercase;
+    background: #eee;
 }
 
-.right-side .name{
-    width: 400px;
-    height: 50px;
-    background: #fff;
-    box-shadow: 2px 5px 5px 0px rgba(240, 236, 25, 0.15);
-    margin-top: 20px;
-    margin-left: -100px;
-    margin-bottom: 30px;
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3.5em;
 }
 
-.right-side .name h1{
-    padding: 10px 10px;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgba(75, 12, 247, 0.973);
-    text-transform: uppercase;
+.left-main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20em;
+    width: 25em;
 }
 
-.right-side span{
+.right-main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 25em;
+    width: 20em;
+    padding-left: 2em;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
     display: block;
-    margin-bottom: 20px;
-    width: 80px;
-    height: 3px;
-    background: #FFE900;
+    padding-left: 2.5em;
 }
 
 p{
-    font-size: 14px;
-    font-weight: 600;
-    color: rgba(0,0,0,0.5);
+    color: lightslategray;
 }
-
-.icons{
-    position: relative;
-    margin-top: 30px;
+h1{
+    color: lightcoral;
 }
 
 .icons .fa{
@@ -94,7 +65,6 @@ p{
     text-align: center;
     color: #000;
     font-size: 20px;
-    margin: 8px;
 }
 
 .icons .fa:hover{
