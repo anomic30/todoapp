@@ -10,8 +10,8 @@ export const About = () => {
             <img src={profileImage} alt="avatar" class="avatar"/>
         </div>
         <div class="right-main">
-            <h1>Hey there, its me Anom</h1>
-            <p>This is my first React app,
+            <h1 class="intro">Hey there, its me Anom</h1>
+            <p class="descript">This is my first React app,
                 I hope you would like this as much as I do!
                 <br></br>
                 Do follow me in the below mentioned social medias...

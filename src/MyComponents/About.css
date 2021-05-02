@@ -49,10 +49,10 @@ body{
     padding-left: 2.5em;
 }
 
-p{
+.descript{
     color: lightslategray;
 }
-h1{
+.intro{
     color: lightcoral;
 }
 
