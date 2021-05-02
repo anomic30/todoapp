@@ -1,13 +1,13 @@
 import React from 'react';
 import './About.css';
-import profileImage from '../img/pic2.svg';
+import profileImage from '../img/pic3.svg';
 // import '../../public/pic3.svg'
 
 export const About = () => {
     return (
         <div class="main">
         <div class="left-main">
-            <img src={profileImage} alt="avatar"/>
+            <img src={profileImage} alt="avatar" class="avatar"/>
         </div>
         <div class="right-main">
             <h1>Hey there, its me Anom</h1>
